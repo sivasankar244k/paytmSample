@@ -14,7 +14,7 @@ paytm.payment:
     website: WEBSTAGING
     industryTypeId: Retail
     paytmUrl: https://securegw-stage.paytm.in/theia/processTransaction
-    callbackUrl: https://ecommerce5450.herokuapp.com/pgresponse
+    callbackUrl: https://spring-paytm.herokuapp.com/pgresponse
     details:
       MID: '${paytm.payment.sandbox.merchantid}'
       CHANNEL_ID: '${paytm.payment.sandbox.channelid}'
