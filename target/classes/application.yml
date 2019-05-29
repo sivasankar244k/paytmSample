@@ -1,8 +1,5 @@
 #paytm payment merchant sandbox details
 
-
-server:
-	port: process.env.PORT
 spring:
   mvc:
     view:
@@ -24,4 +21,5 @@ paytm.payment:
       INDUSTRY_TYPE_ID: '${paytm.payment.sandbox.industrytypeid}'
       WEBSITE: '${paytm.payment.sandbox.website}'
       CALLBACK_URL: '${paytm.payment.sandbox.callbackUrl}'
-      
+server:
+  port: process.env.PORT      
