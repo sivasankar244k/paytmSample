@@ -1,6 +1,9 @@
 #paytm payment merchant sandbox details
+
+
+server:
+	port: process.env.PORT
 spring:
-server.port = process.env.PORT
   mvc:
     view:
       prefix: /WEB-INF/jsp/
