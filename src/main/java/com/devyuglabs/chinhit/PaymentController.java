@@ -25,6 +25,11 @@ public class PaymentController {
 		return "TxnTest";
 	}
 	
+	@RequestMapping(value="/boomi")
+	public String getBase() {
+		return "index";
+	}
+	
 	@RequestMapping(value="/pgredirect")
 	public ModelAndView getRedirect(@RequestParam(name="CUST_ID") String customerId,
 			@RequestParam(name="TXN_AMOUNT") String transactionAmount,
