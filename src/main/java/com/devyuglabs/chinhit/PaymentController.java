@@ -26,7 +26,7 @@ public class PaymentController {
 	}
 	
 	@RequestMapping(value="/boomi")
-	public String getBase() {
+	public String getBoomi() {
 		return "index";
 	}
 	
